@@ -20,6 +20,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.imagenes {
+  border-radius: 25px;
+}
+
 /*--------------------------------------------------------------
 #  Volver al botón superior
 --------------------------------------------------------------*/
@@ -321,6 +325,13 @@ section {
   margin-bottom: 0;
 }
 
+.descripcion {
+  font-size: 17px;
+}
+.titulo_sobreMi {
+  margin: 35px 0;
+}
+
 /*--------------------------------------------------------------
         #HABILIDADES
 --------------------------------------------------------------*/
@@ -365,6 +376,12 @@ section {
 .img-velas {
   width: 450px;
   height: 300px;
+  border-radius: 10px;
+}
+
+.info-portfolio {
+  padding-top: 50px;
+  padding-right: 15px;
 }
 
 @media screen and (max-width: 425px) {
@@ -376,17 +393,12 @@ section {
 }
 
 
-@media screen and (min-width: 768px) {
+@media (min-width: 426px) and (max-width: 1024px) {
   .img-velas {
     width: 350px;
     height: 250px;
   }
 }
-
-
-
-
-
 
 /*--------------------------------------------------------------
 # Contact
